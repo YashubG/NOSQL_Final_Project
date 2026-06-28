@@ -1,0 +1,11 @@
+<configuration>
+    <property>
+        <name>hive.metastore.warehouse.dir</name>
+        <value>${user.dir}/data/warehouse</value>
+    </property>
+    <property>
+        <name>hive.execution.engine</name>
+        <value>mr</value>
+        <description>Use MapReduce; Tez is not installed on this setup.</description>
+    </property>
+</configuration>
